@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halaman 1</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #e8f0ff;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .container {
+      width: 100%;
+      max-width: 1280px;
+    }
+    
+    .image-wrapper {
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+      max-width: 1280px;
+      border-radius: 8px;
+    }
+    
+    .title {
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    
+    .click-btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #FFC0CB;
+      color: white;
+      text-decoration: none;
+      font-size: 24px;
+      border-radius: 10px;
+      transition: 0.25s;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .click-btn:hover {
+      background: #FFC0CB;
+      transform: scale(1.07);
+    }
+    
+    @media (max-width: 768px) {
+      body {
+        padding-top: 20px;
+      }
+      
+      .click-btn {
+        font-size: 18px;
+        padding: 12px 24px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .click-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="image-wrapper">
+      <img src="img/bbbbf504-1dd3-4ae7-b3bd-cb506bbd6bb8.jpg" alt="Header Image" />
+    </div>
+    
+    <div class="title"></div>
+    
+    <a href="page2.html" class="click-btn">Click Here to Enter!</a>
+  </div>
+</body>
+</html>

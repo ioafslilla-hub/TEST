@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recycle Ranger — Halaman 1</title>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #222;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    header.center {
+      text-align: center;
+      margin-bottom: 14px;
+    }
+
+    header.center img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 0;
+    }
+
+    /* Panel utama */
+    .panel {
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      background: #FFFFDB;
+      border: 8px solid #FEDF8D;
+      padding: 14px;
+      border-radius: 6px;
+    }
+
+    /* Kolom teks */
+    .text {
+      flex: 1;
+      background: #FFFFB0;
+      padding: 14px;
+      border-radius: 6px;
+      border: 2px solid #F2D47A;
+    }
+
+    .text p {
+      margin: 0 0 12px 0;
+      font-size: 20px;
+      line-height: 1.6;
+      color: #1b1b1b;
+    }
+
+    /* Kolom gambar */
+    .thumb {
+      flex: 0 0 340px;
+      background: #FFEB99;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    .thumb img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 0;
+    }
+
+    /* Tombol kembali */
+    .back {
+      text-align: center;
+      margin-top: 18px;
+    }
+
+    .btn-back {
+      display: inline-block;
+      padding: 8px 14px;
+      background: #FEDF8D;
+      color: #000;
+      text-decoration: none;
+      border: 1px solid #E0C36A;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn-back:hover {
+      background: #F7D67E;
+    }
+
+    /* Responsif */
+    @media (max-width: 700px) {
+      .panel {
+        flex-direction: column;
+      }
+      .thumb {
+        flex: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- Banner -->
+    <header class="center">
+      <img src="img/ba82b27e-a089-4adf-b84e-f52fcd9f56fe.jpg" alt="Banner Recycle Ranger">
+    </header>
+
+    <!-- Panel utama -->
+    <main class="panel" role="main">
+
+      <!-- Teks -->
+      <div class="text">
+        <p>Recycle Ranger is a hero whose role is to encourage people to process waste and recycle so that the environment remains clean and healthy.</p>
+
+        <p>Because, in this day and age, waste is found everywhere, plastic takes years to decompose. Therefore, Recycle Ranger implements a system often called "Reduce, Reuse, Recycle." Reduce means reducing the use of disposable items, reuse means reusing items repeatedly, and recycle means recycling waste into something new.</p>
+
+        <p>Recycle Ranger has helped the earth with enormous benefits. The earth is cleaner, the air healthier and fresher, the oceans safer, forests more protected, resulting in more trees, and soil and water free from plastic waste or chemicals that leach into the water and soil.</p>
+      </div>
+
+      <!-- Gambar -->
+      <div class="thumb">
+        <img src="img/1b13bee1-8eb8-4dad-a593-b25d208b2056.jpg" alt="Recycle Ranger Image">
+      </div>
+
+    </main>
+
+    <!-- Tombol kembali -->
+    <div class="back">
+      <a href="page2.html" class="btn-back">Back to Page Two</a>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Fixer — Halaman 1</title>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #222;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    header.center {
+      text-align: center;
+      margin-bottom: 14px;
+    }
+
+    header.center img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 0;
+    }
+
+    /* Panel utama */
+    .panel {
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      background: #FFEAFF;
+      border: 8px solid #FCBCDB;
+      padding: 14px;
+      border-radius: 6px;
+    }
+
+    /* Kolom teks */
+    .text {
+      flex: 1;
+      background: #FFDBFF;
+      padding: 14px;
+      border-radius: 6px;
+      border: 2px solid #E8C3FF;
+    }
+
+    .text p {
+      margin: 0 0 12px 0;
+      font-size: 20px;
+      line-height: 1.6;
+      color: #1b1b1b;
+    }
+
+    /* Kolom gambar */
+    .thumb {
+      flex: 0 0 340px;
+      background: #CFC1FF;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    .thumb img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 0;
+    }
+
+    /* Tombol kembali */
+    .back {
+      text-align: center;
+      margin-top: 18px;
+    }
+
+    .btn-back {
+      display: inline-block;
+      padding: 8px 14px;
+      background: #FCBCDB;
+      color: #000;
+      text-decoration: none;
+      border: 1px solid #DBA8C6;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn-back:hover {
+      background: #F4B0D0;
+    }
+
+    /* Responsif */
+    @media (max-width: 700px) {
+      .panel {
+        flex-direction: column;
+      }
+      .thumb {
+        flex: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- Banner -->
+    <header class="center">
+      <img src="img/66d99052-a2a6-4dc3-9549-1dc23cbeeaf4.jpg" alt="Banner Fashion Fixer">
+    </header>
+
+    <!-- Panel utama -->
+    <main class="panel" role="main">
+
+      <!-- Teks -->
+      <div class="text">
+        <p>Fashion Fixer, a hero who helps people reduce the negative impacts of the fashion industry, especially fast fashion, and helps them choose more environmentally friendly clothing.</p>
+
+        <p>Many problems in today's fashion are becoming increasingly prevalent: fast fashion, which produces too much fabric at too fast a pace, wastes thousands of liters of water for washing, wastes water, high carbon emissions, and the use of plastic in many clothing materials.</p>
+
+        <p>To prevent this from escalating, Fashion Fixer helps address these issues by reducing clothing waste, encouraging reuse and upcycling, combating fast fashion, choosing environmentally friendly materials, and educating people on proper clothing care.</p>
+      </div>
+
+      <!-- Gambar -->
+      <div class="thumb">
+        <img src="img/75c7b152-a7b6-4d0a-b8e4-069d5303277a.jpg" alt="Fashion Fixer Image">
+      </div>
+
+    </main>
+
+    <!-- Tombol kembali -->
+    <div class="back">
+      <a href="page2.html" class="btn-back">Back to Page Two</a>
+    </div>
+
+  </div>
+</body>
+</html>
